@@ -1,0 +1,8 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:id="@+id/keys">
+            <item android:id="@+id/copypublickey" android:title="Copy Local Public Key"></item>
+            <item android:id="@+id/copyprivatekey" android:title="Copy Local Private Key"></item>
+            <item android:id="@+id/copybothkeys" android:title="Copy Both Local Keys"></item>
+        </group>
+    </menu>

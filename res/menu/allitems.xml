@@ -1,0 +1,6 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:id="@+id/keys">
+            <item android:id="@+id/advanced" android:title="Advanced Settings" android:titleCondensed="Advanced" android:alphabeticShortcut="A" android:menuCategory="system"></item>
+        </group>
+    </menu>

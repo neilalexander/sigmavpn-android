@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2011 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+ -->
+
+<resources>
+    <string name="app">SigmaVPN</string>
+
+    <string name="remoteaddress">Remote Address:</string>
+    <string name="remoteport">Remote Port:</string>
+    <string name="privatekey">Local Private Key:</string>
+    <string name="connect">Connect</string>
+
+    <string name="connecting">SigmaVPN is connecting...</string>
+    <string name="connected">SigmaVPN is connected!</string>
+    <string name="disconnected">SigmaVPN has disconnected.</string>
+    <string name="tunneladdress">Tunnel Address Prefix:</string>
+    <string name="publickey">Remote Public Key:</string>
+    <string name="description">Enter your SigmaVPN tunnel and network details and then activate the tunnel below.</string>
+    <string name="generateprivatekey">Generate</string>
+    <string name="localpublickey">Local Public Key:</string>
+    <string name="localpublickeydesc">Send this key to your peer</string>
+    <string name="portunreachable">Port unreachable</string>
+    <string name="routes">Static Routes:</string>
+    <string name="routeshint">10.0.0.0/8, fc00::/7, ...</string>
+    <string name="tunneladdresshint">192.168.0.1/24, fd12:3456:7890::2/64</string>
+    <string name="remoteaddresshint">1.2.3.4</string>
+    <string name="remoteporthint">5678</string>
+    <string name="dnsservershint">DNS Servers:</string>
+    <string name="networklearnfromremote">Attempt to learn network settings from remote endpoint</string>
+    <string name="dnsserverhint">10.0.0.1, fd12:3456:7890::1</string>
+    <string name="enablenacltai">Use TAI64 nonce (more secure)</string>
+    <string name="versionstring">0.21</string>
+    <string name="mtu">Maximum Transmission Unit:</string>
+    <string name="mtuhint">1400</string>
+    <string name="sendpollfreq">Idle Send Poll Frequency:</string>
+    <string name="sendpollfreqdescription">Lower frequencies use more battery and CPU, but higher frequencies increase potential send delay. Default: 1000ms.</string>
+    <string name="localsocketdefine">Set Manually:</string>
+    <string name="localportlabel">Local Port:</string>
+    <string name="automatic">1234</string>
+    <string name="save">Save</string>
+</resources>

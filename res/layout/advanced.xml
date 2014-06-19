@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3mm" >
+
+        <TextView
+            style="@style/item"
+            android:text="@string/localportlabel" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <CheckBox
+                android:id="@+id/definelocalsocket"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/localsocketdefine" />
+
+            <Space
+                android:layout_width="1mm"
+                android:layout_height="match_parent" />
+
+            <EditText
+                android:id="@+id/localportnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/automatic"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2mm" />
+
+        <TextView
+            style="@style/item"
+            android:text="@string/mtu" />
+
+        <EditText
+            android:id="@+id/mtu"
+            style="@style/item"
+            android:hint="@string/mtuhint"
+            android:inputType="number" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2mm" />
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sendpollfreq" />
+
+        <LinearLayout
+            android:id="@+id/sendpollfreqlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="true" >
+
+            <TextView
+                android:id="@+id/sendpollfreqlabel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="1mm"
+                android:text="Small Text"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <SeekBar
+                android:id="@+id/sendpollfreq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="5000" >
+
+                <requestFocus />
+            </SeekBar>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sendpollfreqdescription"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="2mm" />
+
+        <Button
+            android:id="@+id/advancedsavebutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save" />
+    </LinearLayout>
+
+</ScrollView>
